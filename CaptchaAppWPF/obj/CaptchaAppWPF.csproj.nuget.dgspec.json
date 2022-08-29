@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\ABVP\\CaptchaAppWPF\\CaptchaAppWPF\\CaptchaAppWPF.csproj": {}
+  },
+  "projects": {
+    "F:\\ABVP\\CaptchaAppWPF\\CaptchaAppWPF\\CaptchaAppWPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ABVP\\CaptchaAppWPF\\CaptchaAppWPF\\CaptchaAppWPF.csproj",
+        "projectName": "CaptchaAppWPF",
+        "projectPath": "F:\\ABVP\\CaptchaAppWPF\\CaptchaAppWPF\\CaptchaAppWPF.csproj",
+        "packagesPath": "C:\\Users\\WhiteWolf\\.nuget\\packages\\",
+        "outputPath": "F:\\ABVP\\CaptchaAppWPF\\CaptchaAppWPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WhiteWolf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.ML.OnnxRuntime": {
+              "target": "Package",
+              "version": "[1.12.1, )"
+            },
+            "Yolov5Net": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
